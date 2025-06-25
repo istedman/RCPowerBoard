@@ -15,6 +15,7 @@ A PIC12F1840 microcontroller monitors the battery/cell voltages and when it gets
 
 ## Software
 The design is minimal. A jumper identifies the battery type to monitor, providing you set this with a freshly charged battery pack, it will correctly determine the cell count and store the required settings in EEPROM. Only needs to be done once.
+The BatteryMonitor.X directory contains the full source code, exported from MPLabX 6.20
 
 **The software is designed to monitor the battery pack to these lower levels:**
 _Lithium Polymer (LiPo)_
